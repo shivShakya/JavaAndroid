@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="305dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="64dp"
+        android:text="Machine Learning Model"
+        android:textColor="@color/teal_700"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cgpa"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="CGPA"
+        android:textColor="#045434"
+        android:textColorHighlight="#360808"
+        android:textColorHint="#0A7402"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/iq"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="IQ"
+        android:textColor="#045434"
+        android:textColorHighlight="#360808"
+        android:textColorHint="#0A7402"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cgpa" />
+
+    <EditText
+        android:id="@+id/profile_score"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Profile_Score"
+        android:textColor="#045434"
+        android:textColorHighlight="#360808"
+        android:textColorHint="#0A7402"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iq" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="279dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="64dp"
+        android:foregroundTint="#620C0C"
+        android:shadowColor="#3F0DAD"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_score" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:text="Placed"
+        android:textColor="@color/teal_700"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.351" />
+
+</android.support.constraint.ConstraintLayout>
